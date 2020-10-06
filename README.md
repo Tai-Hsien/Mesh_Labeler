@@ -54,4 +54,5 @@ button. Then, all cells with the old label will be changed to be a new label.
     file** button. The program will save the result in the VTP format with the
     **Label** cell scalar attribute.
 	
-`This project is made by Visualization Toolkit (VTK) and vedo`
+------------
+This project is made by [Visualization Toolkit (VTK)](https://vtk.org/) and [vedo](https://github.com/marcomusy/vedo).
