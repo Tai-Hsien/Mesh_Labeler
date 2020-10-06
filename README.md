@@ -55,4 +55,4 @@ button. Then, all cells with the old label will be changed to be a new label.
     **Label** cell scalar attribute.
 	
 ------------
-This project is made by [Visualization Toolkit (VTK)](https://vtk.org/) and [vedo](https://github.com/marcomusy/vedo).
+This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
