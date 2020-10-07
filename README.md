@@ -1,5 +1,8 @@
 Mesh Labeler – User Manual
 ==========================
+Created by [Tai-Hsien Wu](https://github.com/Tai-Hsien).
+This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
+==========================
 
 1.  Download the ZIP file from
     <https://drive.google.com/file/d/1CXoIeZvmM6FTorhz8Jj0iImHYPjnONIv/view?usp=sharing>
@@ -8,7 +11,7 @@ Mesh Labeler – User Manual
     **Mesh_Labeler_win_v1.0**
 
 3.  In the folder, execute **Mesh_Labeler.exe** , the program might take around
-    10 seconds to launch. After that, you will see the user interface, as shown
+    5 seconds to launch. After that, you will see the user interface, as shown
     below.
 
 ![Figure 1. The user interface of **Mesh Labeler**](./figure1.jpg)
@@ -38,10 +41,10 @@ Mesh Labeler – User Manual
 
 -   1st Fix Way: Change label by selecting cells (triangles)
 
-The simplest way to select cells is to right-click a cell. The selected cell(s) will be highlighted by grey color. An advanced way is to press "s" to enter "Spline model",
+The simplest way to select cells is to right-click a cell. The selected cells are highlighted by grey color. An advanced way to select cells is to press "s" to enter "Spline model",
  where you can add points by left click on the mesh. Once you decide to use the selected points (number of points should be larger than 2) to generate a spline, press "Enter". All cells within this spline will be highlighted.
-Before you execute the change, make sure the *active label* is what you plan to apply. The default *active label* is 0. You can change it in the textbox on the top right.
-When you satisfy the selected cells, press "e" to assign the *active label value* on those selected cells. Please follow the colormap in the bottom window
+ Press "c" to clean the current selection. Before you execute the change, please make sure the *active label* is what you plan to apply. The default *active label* is 0. You can change it in the textbox on the top right.
+When you satisfy the selected cells, press "e" to execute the change which assigns the value of *active label* on those selected cells. Please follow the colormap in the bottom window
 to assign/fix the label of each cell for a dental tooth model.
 
 -   2nd Fix Way: Change all cells with a specific label number one shot
@@ -53,6 +56,4 @@ button. Then, all cells with the old label will be changed to be a new label.
 7.  Once everything is done, you can save the result by using the **Save VTP
     file** button. The program will save the result in the VTP format with the
     **Label** cell scalar attribute.
-	
-------------
-This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
+
