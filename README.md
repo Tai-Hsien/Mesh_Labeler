@@ -40,9 +40,9 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 -   Holding the left mouse button down and dragging will rotate the camera/actor
     in the direction moved.
 
-6.  There are two ways to fix labels, described as follows.
+6.  There are two ways to annotate a mesh, described as follows.
 
--   1st Fix Way: Change label by selecting cells (triangles)
+-   1st way: Change label by selecting cells (triangles)
 
 The simplest way to select cells is to right-click a cell. The selected cells are highlighted by grey color. An advanced way to select cells is to press "s" to enter "Spline model",
  where you can add points by left click on the mesh. Once you decide to use the selected points (number of points should be larger than 2) to generate a spline, press "Enter". All cells within this spline will be highlighted.
@@ -50,7 +50,7 @@ The simplest way to select cells is to right-click a cell. The selected cells ar
 When you satisfy the selected cells, press "e" to execute the change which assigns the value of *active label* on those selected cells. Please follow the colormap in the bottom window
 to assign/fix the label of each cell for a dental tooth model.
 
--   2nd Fix Way: Change all cells with a specific label number one shot
+-   2nd way: Change all cells with a specific label number one shot
 
 In this way, we can entirely change cells those labels are a specific value to be
 another value. There are two textboxes on the middle-right side. Once they read valid label numbers, click "Change!"
@@ -60,3 +60,7 @@ button. Then, all cells with the old label will be changed to be a new label.
     file** button. The program will save the result in the VTP format with the
     **Label** cell scalar attribute.
 
+Problems?
+--------
+
+If you have any questions for using this software, please feel free to open an issue or email me.
