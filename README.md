@@ -1,7 +1,9 @@
 Mesh Labeler – User Manual
 ==========================
+
 Created by [Tai-Hsien Wu](https://github.com/Tai-Hsien).
 This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
+
 ------------
 
 1.  Download the ZIP file from
