@@ -20,8 +20,7 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 ![Figure 1. The user interface of **Mesh Labeler**](./figure1.jpg)
 
 4.  Use the top-right button to open a mesh file. Currently, the program supports VTP
-    (with an attribute named **Label** , a cell scalar array), STL, and OBJ
-    files. There is an examples (Example_01.vtp) in the folder. Note: Since STL and OBJ files do not have the attribute **Label**.
+    (with an attribute named **Label** , a cell scalar array) and STL files. There are two examples (Example_01.vtp and Example_02.stl) in the folder. Note: Since a STL file does not have the attribute **Label**.
     The program will initially generate the cell scalar array (i.e., **Label**)
     and assign value of 0 (i.e., all background) to the array for each cell
     (i.e., for each triangle) when loading the two types of files. The
