@@ -7,20 +7,19 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 
 ------------
 
-1.  Download the ZIP file from
-    <https://drive.google.com/file/d/1CXoIeZvmM6FTorhz8Jj0iImHYPjnONIv/view?usp=sharing>
+1.  Download the portable version (ZIP file) from
+    <https://drive.google.com/file/d/1CfteqzqNuqgd4AR7y-Xn3CtL7OGbljw5/view?usp=sharing>
 
 2.  Extract the ZIP file, and there will be a folder named
-    **Mesh_Labeler_win_v1.0**
+    **Mesh_Labeler_win_v1.1**
 
-3.  In the folder, execute **Mesh_Labeler.exe** . The program might take around
-    5 seconds to launch. After that, you will see the user interface, as shown
+3.  In the folder, execute **Mesh_Labeler.exe** . The program might take a few seconds to launch (sometimes longer). After that, you will see the user interface, as shown
     below.
 
 ![Figure 1. The user interface of **Mesh Labeler**](./figure1.jpg)
 
 4.  Use the top-right button to open a mesh file. Currently, the program supports VTP
-    (with an attribute named **Label** , a cell scalar array) and STL, OBJ, and PLY files. There are four examples (Example_01.vtp, Example_02.stl, Example_03.obj, and Example_04.ply) in the folder. Note: Since STL, OBJ, PLY files do not have the attribute **Label**.
+    (with an attribute named **Label** , a cell scalar array) and STL, OBJ, and PLY files. There are four examples (Example_01.vtp, Example_02.stl, Example_03.obj, and Example_04.ply) that you can download via my github. Note: Since STL, OBJ, PLY files do not have the attribute **Label**.
     The program will initially generate the cell scalar array (i.e., **Label**)
     and assign value of 0 (i.e., all background) to the array for each cell
     (i.e., for each triangle) when loading these types of files. The
