@@ -5,6 +5,8 @@ Created by [Tai-Hsien Wu](https://github.com/Tai-Hsien) at the Ohio State Univer
 
 This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
 
+This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of model.
+
 ------------
 
 1.  Download installer version from
@@ -49,8 +51,8 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 
 -   1st way: Change label by selecting cells (triangles)
 
-The simplest way to select cells is to right-click a cell. The selected cells are highlighted by grey color. An advanced way to select cells is to press "s" to enter "Spline model",
- where you can add points by left click on the mesh. Once you decide to use the selected points (number of points should be larger than 2) to generate a spline, press "Enter". All cells within this spline will be highlighted.
+The simplest way to select cells is to right-click on a cell. The selected cells are highlighted by grey color. Right-click on a selected cell can cancel its selection.
+An advanced way to select cells is to press "s" to enter "Spline model", where you can add points by left click on the mesh. Once you decide to use the selected points (number of points should be larger than 2) to generate a spline, press "Enter". All cells within this spline will be highlighted.
  Press "c" to clean the current selection. Before you execute the change, please make sure the *active label* is what you plan to apply. The default *active label* is 0. You can change it in the textbox on the top right.
 When you satisfy the selection, press "e" to execute the change which assigns the value of *active label* on those selected cells. Please follow the colormap in the bottom window
 to assign/fix the label of each cell for a dental tooth model.
@@ -60,6 +62,8 @@ to assign/fix the label of each cell for a dental tooth model.
 In this way, we can entirely change cells those labels are a specific value to be
 another value. There are two textboxes on the middle-right side. Once they read valid label numbers, click "Change!"
 button. Then, all cells with the old label will be changed to be a new label.
+
+-	Note that the valid range for a label is [0, 24] for *active label* in the 1st way and two labels in the 2nd way.
 
 7.  Once everything is done, you can save the result by using the **Save VTP
     file** button. The program will save the result in the VTP format with the
