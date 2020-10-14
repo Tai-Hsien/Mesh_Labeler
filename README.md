@@ -19,7 +19,7 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 -   For the portable version, extract the ZIP file, and there will be a folder named
     **Mesh_Labeler_win_v1.1**. Execute **Mesh_Labeler.exe** to open the program. It might take a few seconds to launch (sometimes longer). 
 	
--   Note: Sometimes the portable version need a very long time to open or cannot open due to the antivirus block. Please use the installer version if possible.
+-   Note: Sometimes the portable version needs a very long time to open or cannot open due to the antivirus block. Please use the installer version if possible.
 	
 3. 	Once the program is launched, you will see the user interface, as shown below.
 
