@@ -5,7 +5,7 @@ Created by [Tai-Hsien Wu](https://github.com/Tai-Hsien) at the Ohio State Univer
 
 This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
 
-This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of model.
+This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
 
