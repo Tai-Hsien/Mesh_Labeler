@@ -7,14 +7,21 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 
 ------------
 
-1.  Download the portable version (ZIP file) from
-    <https://drive.google.com/file/d/1CfteqzqNuqgd4AR7y-Xn3CtL7OGbljw5/view?usp=sharing>
+1.  Download installer version from
+	<https://drive.google.com/file/d/1CoG3lq2MbpTl00IV0T6R4icbxWD-2i-f/view?usp=sharing>
+	or portable version from
+    <https://drive.google.com/file/d/1Cp4Tl0noN039VGEDD8uJQ06R18wD-ypz/view?usp=sharing>
 
-2.  Extract the ZIP file, and there will be a folder named
-    **Mesh_Labeler_win_v1.1**
+2.  Install the program or extract ZIP file.
 
-3.  In the folder, execute **Mesh_Labeler.exe** . The program might take a few seconds to launch (sometimes longer). After that, you will see the user interface, as shown
-    below.
+-   For the installer version, execute **Mesh_Labeler_Setup.exe** to install this program. After that, you can find a shortcut in the Windows Start menu.
+
+-   For the portable version, extract the ZIP file, and there will be a folder named
+    **Mesh_Labeler_win_v1.1**. Execute **Mesh_Labeler.exe** to open the program. It might take a few seconds to launch (sometimes longer). 
+	
+-   Note: Sometimes the portable version need a very long time to open or cannot open due to the antivirus block. Please use the installer version if possible.
+	
+3. 	Once the program is launched, you will see the user interface, as shown below.
 
 ![Figure 1. The user interface of **Mesh Labeler**](./figure1.jpg)
 
