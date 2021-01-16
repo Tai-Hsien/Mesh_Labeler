@@ -44,7 +44,7 @@ Current version: 2.0
 -   Holding the left mouse button down and dragging will rotate the camera/actor
     in the direction moved.
 
-7.  There are two methods to annotate a mesh. User can go for each method by select the tab. Different methods have different input under their tabs.
+7.  There are two methods to annotate a mesh. User can go for each method by selecting the tab. Different methods have different input under their tabs.
 
 -   Spline Method: Change label by selecting cells (triangles)
 
