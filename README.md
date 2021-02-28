@@ -8,7 +8,7 @@ This project is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) 
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 2.1 -- support drag & drop files
+Current version: 2.2 -- Fixed the bug when number of labels > 35
 
 ------------
 
