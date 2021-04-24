@@ -62,7 +62,7 @@ In this way, we can entirely change cells from one label to another label.
 There are two spinBoxs (i.e., *Original label* and *New label*) under the One-Way Swap tab. Once they are all set, click **Change!** button; then, all cells with the original label will be changed to be the new label.
 
 8.  Once everything is done, you can save the result by using the **Save** button. The default extension file is **VTP**, which will save the result in the VTP format with the cell array **Label**.
-	If the extension file is **STL** or **OBJ**, Mesh Labeler will save each label to an individual **STL** or **OB** file. For example, a 15-class mesh model will output 15 STL files.
+	If the extension file is **STL** or **OBJ**, Mesh Labeler will save each label to an individual **STL** or **OBJ** file. For example, a 15-class mesh model will output 15 STL files.
 	
 9. Version 3 adds a new function for identifying landmarks on mesh data. To do that, please select "landmarking" tab on the top of the program.
 
