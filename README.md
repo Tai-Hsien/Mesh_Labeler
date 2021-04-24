@@ -3,7 +3,7 @@ Mesh Labeler3 – User Manual
 
 Author: [Tai-Hsien Wu](https://github.com/Tai-Hsien)
 
-This project is powered by [SOVE Inc.] (https://soveortho.com) and is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
+This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
 
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
@@ -69,7 +69,7 @@ There are two spinBoxs (i.e., *Original label* and *New label*) under the One-Wa
 -   Landmarking Method: Annotate landmarks on the loaded mesh
 
 In this method, a mesh must be opened before doing any actions for landmarking.
-Users can load a list of landmarks from a fcsv-format file (fiducials file exported from [3D Slicer] (https://www.slicer.org/)) by clicking **Load FCSV** or create a new list of landmarks by clicking **Add** (default position is the origin for a new landmark).
+Users can load a list of landmarks from a fcsv-format file (fiducials file exported from [3D Slicer](https://www.slicer.org/)) by clicking **Load FCSV** or create a new list of landmarks by clicking **Add** (default position is the origin for a new landmark).
 All landmarks are shown as red spheres in the view, and the name and position of landmarks can be found in the table under this tab. User can select a landmark by clicking the corresponding column of landmark in table.
 The selected landmark will be represented by a blue sphere, as shown below.
 A selected landmark can also be renamed (**Rename** button) and relocated (**Relocate** button).
