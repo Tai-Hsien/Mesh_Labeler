@@ -83,4 +83,4 @@ For the format of FCSV file, please refer to the example (Example_01_UR1.fcsv) i
 Problems?
 --------
 
-If you have any questions about using Mesh Labeler, please feel free to open an issue or email me.
+If you have any questions about using Mesh Labeler, please feel free to open an issue or email me (tai-hsien.wu@soveortho.com).
