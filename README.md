@@ -1,9 +1,11 @@
 Mesh Labeler3 – User Manual
 ==========================
 
+[![lics](https://img.shields.io/badge/license-MIT-blue.svg)](https://en.wikipedia.org/wiki/MIT_License)
+
 Author: [Tai-Hsien Wu](https://github.com/Tai-Hsien)
 
-This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
+This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly developed based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
 
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
@@ -68,16 +70,22 @@ There are two spinBoxs (i.e., *Original label* and *New label*) under the One-Wa
 
 -   Landmarking Method: Annotate landmarks on the loaded mesh
 
-In this method, a mesh must be opened before doing any actions for landmarking.
+Note that a mesh must be loaded before doing any actions in landmarking mode.
 Users can load a list of landmarks from a fcsv-format file (fiducials file exported from [3D Slicer](https://www.slicer.org/)) by clicking **Load FCSV** or create a new list of landmarks by clicking **Add** (default position is the origin for a new landmark).
 All landmarks are shown as red spheres in the view, and the name and position of landmarks can be found in the table under this tab. User can select a landmark by clicking the corresponding column of landmark in table.
 The selected landmark will be represented by a blue sphere, as shown below.
-A selected landmark can also be renamed (**Rename** button) and relocated (**Relocate** button).
+A selected landmark can be renamed by pressing **Rename** button. A new window will pop up to ask the new name for the landmark.
+A selected landmark can also be relocated by pressing **Relocate** button. After that, please left-click on the mesh for the new location of the landmark.
+To unselect a landmark, please right-click mouse.
 The list of landmarks can be exported as fcsv-format by clicking **Save FCSV**.
 For the format of FCSV file, please refer to the example (Example_01_UR1.fcsv) in the repository or portable folder.
 
 
 ![Figure 3. The landmarking method in **Mesh Labeler**. The blue and red spheres represented the selected landmark and the rest landmarks in a given list of landmarks.](./figure3.jpg)
+
+Problems?
+--------
+If you think [Mesh Labeler](https://github.com/Tai-Hsien/Mesh_Labeler) is useful for your research project, please star this project!
 
 
 Problems?
