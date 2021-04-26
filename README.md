@@ -83,7 +83,7 @@ For the format of FCSV file, please refer to the example (Example_01_UR1.fcsv) i
 
 ![Figure 3. The landmarking method in **Mesh Labeler**. The blue and red spheres represented the selected landmark and the rest landmarks in a given list of landmarks.](./figure3.jpg)
 
-Problems?
+Reference
 --------
 If you think [Mesh Labeler](https://github.com/Tai-Hsien/Mesh_Labeler) is useful for your research project, please star this project!
 
