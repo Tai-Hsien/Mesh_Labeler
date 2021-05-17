@@ -10,15 +10,16 @@ This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly deve
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 3.0
+Current version: 3.1
 
 * added landmarking function
 * improved the stability of spline selection
+* added adjustable landmark radius
 
 ------------
 
 1.  Download portable version (click "Download" on top-right without sign-in) from 
-	<https://app.box.com/s/yo9018btjcqiyqv7ye4nfzg1n7eceer0> 
+	<https://app.box.com/s/e0ygnmmznjlpeyf20silvyj4cudf9bn4> 
 
 2.  Extract ZIP file, and there will be a folder named
     **Mesh_Labeler3_portable**. Execute **Mesh_Labeler.exe** to open the program. It might take a few seconds to launch (sometimes longer). 
