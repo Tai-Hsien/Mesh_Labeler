@@ -18,7 +18,9 @@ Current version: 3.1
 
 ------------
 
-1.  Download portable version (click "Download" on top-right without sign-in) from 
+1.  Download installer (click "Download" on top-right without sign-in) from 
+	<https://app.box.com/s/5tpd2h3qzvz2oh9b5khecwr0u088xfgv> 
+	or portable version from
 	<https://app.box.com/s/e0ygnmmznjlpeyf20silvyj4cudf9bn4> 
 
 2.  Extract ZIP file, and there will be a folder named
