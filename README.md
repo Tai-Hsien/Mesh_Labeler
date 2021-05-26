@@ -18,10 +18,7 @@ Current version: 3.1
 
 ------------
 
-1.  Download installer (click "Download" on top-right without sign-in) from 
-	<https://app.box.com/s/5tpd2h3qzvz2oh9b5khecwr0u088xfgv> 
-	or portable version from
-	<https://app.box.com/s/e0ygnmmznjlpeyf20silvyj4cudf9bn4> 
+1.  Download installer from <https://app.box.com/s/5tpd2h3qzvz2oh9b5khecwr0u088xfgv> or portable version from <https://app.box.com/s/e0ygnmmznjlpeyf20silvyj4cudf9bn4> (click "Download" on top-right without sign-in).
 
 2.  Extract ZIP file, and there will be a folder named
     **Mesh_Labeler3_portable**. Execute **Mesh_Labeler.exe** to open the program. It might take a few seconds to launch (sometimes longer). 
