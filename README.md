@@ -10,7 +10,7 @@ This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly deve
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Previous version: 3.2
+Current version: 3.2
 
 * changed the underlying method for spline selection.
 * fixed the bug that saving the selection as additional label.
@@ -93,4 +93,4 @@ If you think [Mesh Labeler](https://github.com/Tai-Hsien/Mesh_Labeler) is useful
 Problems?
 --------
 
-If you have any questions about using Mesh Labeler, please feel free to open an issue or email me (tai-hsien.wu@soveortho.com).
+If you have any questions about using Mesh Labeler, please feel free to open an issue or email me (tai-hsien.wu@soveortho.com)..
