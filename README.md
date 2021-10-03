@@ -10,18 +10,16 @@ This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly deve
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 3.1
+Previous version: 3.2
 
-* added landmarking function
-* improved the stability of spline selection
-* added adjustable landmark radius
+* changed the underlying method for spline selection.
+* fixed the bug that saving the selection as additional label.
 
 ------------
 
-1.  Download installer from <https://app.box.com/s/5tpd2h3qzvz2oh9b5khecwr0u088xfgv> or portable version from <https://app.box.com/s/e0ygnmmznjlpeyf20silvyj4cudf9bn4> (click "Download" on top-right without sign-in).
+1.  Download installer from <https://app.box.com/s/f2x3xmbykt5vb6cov94lf55920acvz0g> (click "Download" on top-right without sign-in).
 
-2.  Extract ZIP file, and there will be a folder named
-    **Mesh_Labeler3_portable**. Execute **Mesh_Labeler.exe** to open the program. It might take a few seconds to launch (sometimes longer). 
+2.  Execute **Mesh_Labeler3_Setup** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
 	
 3. 	Once the program is launched, you will see the user interface, as shown below.
 
@@ -57,6 +55,8 @@ The simplest way to select cells is to right-click on a cell. The selected cells
 An advanced way to select cells is to press "s" to enter "Spline model", where you can add points by left click on the mesh. Once you decide to use the selected points (number of points should be larger than 2) to generate a spline, press "Enter". All cells within this spline will be highlighted.
  Press "c" to clean the current selection. Before you execute the change, please make sure the *active label* is what you plan to apply. The default *active label* is 0. You can change it through the spinBox under the Spline tab.
 When you satisfy the selection, press "e" to execute the change which will assign the value of *active label* on those selected cells. Please follow the colormap to assign/fix the label of each cell for the mesh.
+
+**Note that there are changes that Spline Method doesn't work well (e.g., the uncontinuous selected area). Based on my understanding, it's a potentional problem in VTK. However, it's still useful when selecting a large area, followed by manaully fixed with the right-click selection.
 
 -   One-Way Swap Method: Change all cells with a specific label one-shot
 
