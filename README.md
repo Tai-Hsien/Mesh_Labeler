@@ -14,12 +14,13 @@ Current version: 3.2
 
 * changed the underlying method for spline selection.
 * fixed the bug that saving the selection as additional label.
+* make the default of colormap to contain wisdom teeth.
 
 ------------
 
 1.  Download installer from <https://app.box.com/s/f2x3xmbykt5vb6cov94lf55920acvz0g> (click "Download" on top-right without sign-in).
 
-2.  Execute **Mesh_Labeler3_Setup** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
+2.  Execute **Mesh_Labeler3_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
 	
 3. 	Once the program is launched, you will see the user interface, as shown below.
 
@@ -56,7 +57,7 @@ An advanced way to select cells is to press "s" to enter "Spline model", where y
  Press "c" to clean the current selection. Before you execute the change, please make sure the *active label* is what you plan to apply. The default *active label* is 0. You can change it through the spinBox under the Spline tab.
 When you satisfy the selection, press "e" to execute the change which will assign the value of *active label* on those selected cells. Please follow the colormap to assign/fix the label of each cell for the mesh.
 
-**Note that there are changes that Spline Method doesn't work well (e.g., the uncontinuous selected area). Based on my understanding, it's a potentional problem in VTK. However, it's still useful when selecting a large area, followed by manaully fixed with the right-click selection.
+**Note that there are changes that Spline Method doesn't work well (e.g., the uncontinuous selected area). Based on my understanding, it's a potentional problem in VTK and hard to fix by myself. However, it's still useful when selecting a large area, followed by manaully fixed with the right-click selection.**
 
 -   One-Way Swap Method: Change all cells with a specific label one-shot
 
