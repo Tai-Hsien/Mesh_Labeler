@@ -71,6 +71,25 @@ All landmarks are shown as red spheres in the view, and the name and position of
 
 ![Figure 3. The landmarking method in **Mesh Labeler**. The blue and red spheres represented the selected landmark and the rest landmarks in a given list of landmarks.](./figure3.jpg)
 
+Hotkey Table
+--------
+| **VTK hotkeys**          | **Function**                                                                                                                                                                                                                                                              |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Keypress j / Keypress t  | toggle between joystick (position sensitive) and trackball (motion sensitive) styles. In joystick style, motion occurs continuously as long as a mouse button is pressed. In trackball style, motion occurs when the mouse button is pressed and the mouse pointer moves. |
+| Keypress a               | toggle actor modes. In actor mode, mouse events affect the actor that is under the mouse pointer.                                                                                                                                                                         |
+| Keypress 1               | unknown. (Don't press)                                                                                                                                                                                                                                                    |
+| Keypress 2               | unknown. (Don't press)                                                                                                                                                                                                                                                    |
+| Keypress 3               | toggle the render window into and out of stereo mode.                                                                                                                                                                                                                     |
+| Keypress f               | fly to the picked point                                                                                                                                                                                                                                                   |
+| Keypress p               | perform a pick operation. (Don't press)                                                                                                                                                                                                                                   |
+| Keypress w               | modify the representation of all actors so that they are wireframe.                                                                                                                                                                                                       |
+| **Mesh Labeler Spline Mode**          | **Function**                                                                                                                                                                                                                                                              |                                                                                                                         |
+| Keypress s               | toggle splien mode & modify the representation of all actors so that they are surfaces.                                                                                                                                                                                   |
+| Keypress e               | execute the change in spline mode                                                                                                                                                                                                                                         |
+| Keypress Enter           | generate a spline based on the given points                                                                                                                                                                                                                               |
+| Keypress c               | clean the current selection including existing spline and points                                                                                                                                                                                                          |
+
+
 Reference
 --------
 If you think [Mesh Labeler](https://github.com/Tai-Hsien/Mesh_Labeler) is useful for your research project, please cite:
