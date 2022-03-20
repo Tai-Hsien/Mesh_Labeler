@@ -19,7 +19,7 @@ Current version: 3.3
 
 ------------
 
-1.  Download installer from <https://app.box.com/s/f2x3xmbykt5vb6cov94lf55920acvz0g> (click "Download" on top-right without sign-in).
+1.  Download installer from <https://www.dropbox.com/s/fyrjjaorgqb0vo6/Mesh_Labeler3_Setup.exe?dl=0> (click "Download").
 
 2.  Execute **Mesh_Labeler3_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
 	
