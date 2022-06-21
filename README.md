@@ -10,18 +10,16 @@ This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly deve
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 3.3
+Current version: 3.4
 
-* changed the underlying method for spline selection.
-* fixed the bug that saving the selection as additional label.
-* made the default of colormap to contain wisdom teeth.
-* removed the wireframe of mesh when rendering
+* fixed the bug that always used the first celldata as active array
+* displayed the wireframe of mesh when rendering
 
 ------------
 
-1.  Download installer from <https://www.dropbox.com/s/fyrjjaorgqb0vo6/Mesh_Labeler3_Setup.exe?dl=0> (click "Download").
+1.  Download installer from <https://www.dropbox.com/s/n9d4c9x5p7szopn/Mesh_Labeler3p4_Setup.exe?dl=0> (click "Download").
 
-2.  Execute **Mesh_Labeler3_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
+2.  Execute **Mesh_Labeler3p4_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
 	
 3. 	Once the program is launched, you will see the user interface, as shown below.
 
