@@ -1,4 +1,4 @@
-Mesh Labeler3 – User Manual
+Mesh Labeler4 – User Manual
 ==========================
 
 [![lics](https://img.shields.io/badge/license-MIT-blue.svg)](https://en.wikipedia.org/wiki/MIT_License)
@@ -10,16 +10,18 @@ This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly deve
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 3.4
+Current version: 4.0
 
-* fixed the bug that always used the first celldata as active array
-* displayed the wireframe of mesh when rendering
+* removed the spline model
+* added brush mode
+* added a hotkey (L or l) to show/hide wireframe (default: show wireframe)
+* added "un-do" process (ctrl+z) in brush mode
 
 ------------
 
-1.  Download installer from <https://www.dropbox.com/s/n9d4c9x5p7szopn/Mesh_Labeler3p4_Setup.exe?dl=0> (click "Download").
+1.  Download installer from <https://www.dropbox.com/scl/fi/h0woxq1m3vyj54jbqhu1i/Mesh_Labeler4p0_Setup.exe?rlkey=8yzxdie6adtmqk135mggbgc1f&dl=0> (click "Download" on the top left).
 
-2.  Execute **Mesh_Labeler3p4_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu.
+2.  Execute **Mesh_Labeler4p0_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu (if it is installed for all user, you might need to search "Mesh Labeler" in the search bar).
 	
 3. 	Once the program is launched, you will see the user interface, as shown below.
 
@@ -46,11 +48,10 @@ Current version: 3.4
 
 7.  There are two methods to annotate a mesh. Users can go for each method by selecting the corresponding tab. Different methods have different input(s) under their tabs.
 
-    **(1) Spline Method: Change label by selecting cells (triangles)**
-The simplest way to select cells is to right-click on a cell. The selected cells are highlighted by grey color. Right-click on a selected cell can cancel its selection.
-An advanced way to select cells is to press "s" to enter "Spline model" (you can look at the status bar to check whether the Spline model is on or off). In Spline model, you can add points by left click on the mesh. Once the number of selected points > 2, you can decide to use these points to generate a spline by pressing "Enter". All cells within this spline will be highlighted. Press "c" if you would like to clean the current selection. Before you execute the change, please make sure the *active label* is what you plan to apply. The default *active label* is 0. You can change it through the spinBox under the Spline tab.
-Once you satisfy the selection, press "e" to execute the change which will assign the value of *active label* on those selected cells. Please follow the colormap to assign/fix the label of each cell for the mesh.
-**Note that there are certain probabilities that Spline Method doesn't work well (e.g., the uncontinuous selected area), particularly for an aggregative selection . Based on my understanding, it's a potential problem in VTK and hard to fix by myself. However, this method is still useful for selecting a large area, followed by manaully fixed with the right-click selection.**
+    **(1) Brush Method: Change label by selecting cells (triangles)**
+The most straightforward way to select cells is by using a brush tool. Press "b" to activate "Brush Mode" (you can check the status bar to confirm if Brush Mode is on or off).
+Once you're in Brush Mode, you'll see small red points that indicate potential selections as you move your mouse over the model. To select cells, simply right-click and drag the brush tool across the model. The selected cells will be highlighted in gray.
+To remove a part of the selection, hold down the "ctrl" key while right-clicking and dragging. To adjust the brush size, hold down "ctrl" and scroll the mouse wheel up or down. Additionally, you can undo actions by pressing "ctrl+z".
 
     **(2) One-Way Swap Method: Change all cells with a specific label one-shot**
 In this way, we can entirely change cells from one label to another label.
@@ -59,7 +60,7 @@ There are two spinBoxs (i.e., *Original label* and *New label*) under the One-Wa
 8.  Once everything is done, you can save the result by using the **Save** button. The default extension file is **VTP**, which will save the result in the VTP format with the cell array **Label**.
 	If the extension file is **STL** or **OBJ**, Mesh Labeler will save each label to an individual **STL** or **OBJ** file. For example, a 15-class mesh model will output 15 STL files.
 	
-9. Version 3 adds a new function for identifying landmarks on mesh data. To do that, please select "landmarking" tab on the top of the program.
+9. Version 3 added a new function for identifying landmarks on mesh data. To do that, please select "landmarking" tab on the top of the program.
 
 -   **Landmarking Method: Annotate landmarks on the loaded mesh**
 Note that a mesh must be loaded before doing any actions in landmarking mode.
@@ -81,11 +82,14 @@ Hotkey Table
 | Keypress f               | fly to the picked point                                                                                                                                                                                                                                                   |
 | Keypress p               | perform a pick operation. (Don't press)                                                                                                                                                                                                                                   |
 | Keypress w               | modify the representation of all actors so that they are wireframe.                                                                                                                                                                                                       |
-| **Mesh Labeler Spline Mode**          | **Function**                                                                                                                                                                                                                                                              |                                                                                                                         |
-| Keypress s               | toggle splien mode & modify the representation of all actors so that they are surfaces.                                                                                                                                                                                   |
+| **Mesh Labeler General hotkeys**          | **Function**        
+| Keypress l               | show/hide wireframe with face.                                                                                                                                                                                                       |
+| **Mesh Labeler Brush Mode**          | **Function**                                                                                                                                                                                                                                                              |                                                                                                                         |
+| Keypress b               | toggle splien mode & modify the representation of all actors so that they are surfaces.                                                                                                                                                                                   |
 | Keypress e               | execute the change in spline mode                                                                                                                                                                                                                                         |
 | Keypress Enter           | generate a spline based on the given points                                                                                                                                                                                                                               |
-| Keypress c               | clean the current selection including existing spline and points                                                                                                                                                                                                          |
+| Keypress c               | clean the current selection including existing spline and points
+| Keypress ctrl+z          | undo                                                                                                                                                                                                                   |
 
 
 Reference
