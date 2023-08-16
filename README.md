@@ -19,7 +19,7 @@ Current version: 4.0
 
 ------------
 
-1.  Download installer from <https://www.dropbox.com/scl/fi/h0woxq1m3vyj54jbqhu1i/Mesh_Labeler4p0_Setup.exe?rlkey=8yzxdie6adtmqk135mggbgc1f&dl=0> (click "Download" on the top left).
+1.  Download installer from <https://www.dropbox.com/scl/fi/7ki95hv9q3p3xyphnz5d8/Mesh_Labeler4p0_Setup.exe?rlkey=3uzhoxrkignh1dwpxgxrhb0bk&dl=0> (click "Download" on the top left).
 
 2.  Execute **Mesh_Labeler4p0_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu (if it is installed for all user, you might need to search "Mesh Labeler" in the search bar).
 	
