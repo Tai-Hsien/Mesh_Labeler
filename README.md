@@ -5,7 +5,7 @@ Mesh Labeler4 – User Manual
 
 Author: [Tai-Hsien Wu](https://github.com/Tai-Hsien)
 
-This project is powered by [SOVE Inc.](https://soveortho.com) and is mainly developed based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
+This project is partially powered by [SOVE Inc.](https://soveortho.com) and is mainly developed based on [Visualization Toolkit (VTK)](https://vtk.org/) and, especially, [vedo](https://github.com/marcomusy/vedo).
 
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
@@ -15,7 +15,7 @@ Current version: 4.0
 * removed the spline model
 * added brush mode
 * added a hotkey (L or l) to show/hide wireframe (default: show wireframe)
-* added "un-do" process (ctrl+z) in brush mode
+* added "un-do" one action process (ctrl+z) in brush mode
 
 ------------
 
