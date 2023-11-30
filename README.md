@@ -10,16 +10,17 @@ This project is partially powered by [SOVE Inc.](https://soveortho.com) and is m
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 4.0
+Current version: 4.1
 
 * removed the spline model
 * added brush mode
-* added a hotkey (L or l) to show/hide wireframe (default: show wireframe)
 * added "un-do" one action process (ctrl+z) in brush mode
+* add hotkeys to save FCSV file and relocate a landmark
+* No show wireframe as default
 
 ------------
 
-1.  Download installer from <https://www.dropbox.com/scl/fi/7ki95hv9q3p3xyphnz5d8/Mesh_Labeler4p0_Setup.exe?rlkey=3uzhoxrkignh1dwpxgxrhb0bk&dl=0> (click "Download" on the top left). The previous v3.4 could be avaialbe from <https://www.dropbox.com/s/n9d4c9x5p7szopn/Mesh_Labeler3p4_Setup.exe?dl=0>.
+1.  Download installer from <https://www.dropbox.com/s/3b6i0c2hfja6vq9/Mesh_Labeler4p1_Setup.exe?dl=0> (click "Download" on the top left). The previous v3.4 could be avaialbe from <https://www.dropbox.com/s/n9d4c9x5p7szopn/Mesh_Labeler3p4_Setup.exe?dl=0>.
 
 2.  Execute **Mesh_Labeler4p0_Setup.exe** to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu (if it is installed for all user, you might need to search "Mesh Labeler" in the search bar).
 	
@@ -83,11 +84,15 @@ Hotkey Table
 | Keypress p               | perform a pick operation. (Don't press)                                                                                                                                                                                                                                   |
 | Keypress w               | modify the representation of all actors so that they are wireframe.                                                                                                                                                                                                       |
 | **Mesh Labeler**         | **Function**                                                                                                                                                                                                                                                              |                                                                                                                         |
-| Keypress l	           | show/hide wireframe with face (might need to press twice; first press to foucs).                                                                                                                                                                                                       |
+| Keypress l	           | show/hide wireframe with face.                                                                                                                                                                                                       |
 | Keypress b               | toggle brush mode                                                                                                                                                                                    |
 | Keypress e               | execute the change in brush mode                                                                                                                                                                                                                                         |
 | Keypress c               | clean the current selection
-| Keypress ctrl+z          | undo                                                                                                                                                                                                                   |
+| Keypress ctrl+z          | undo
+| Keypress ctrl+s          | save FCSV file                                                                                                                                                                                                                   |
+| Keypress ctrl+r          | relocate the selected landmark
+| Keypress right           | select next right landamrk
+| Keypress left            | select next left landamrk
 
 
 Reference
