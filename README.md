@@ -10,8 +10,9 @@ This project is partially powered by [SOVE Inc.](https://soveortho.com) and is m
 This program is originally developed to conveniently label/annotate dental mesh model. It can also work on any other type of mesh model.
 
 ------------
-Current version: 4.3
+Current version: 4.3.1
 
+* added flagpole caption function (keypress s) in segmentation mode
 * added filling function (shift+left click) in brush mode
 * added reset button for landmarking
 * removed the spline model
@@ -23,7 +24,7 @@ Current version: 4.3
 
 ------------
 
-1.  Download installer from <https://www.dropbox.com/scl/fi/bktmrd9874vc4d4n9ro64/Mesh_Labeler4p3_Setup.exe?rlkey=qhl1nxdul2yh5poqyw8rc3zjy&st=uxlvd2zo&dl=0> (click the download button on the top right). The previous v3.4 could be avaialbe from <https://www.dropbox.com/s/n9d4c9x5p7szopn/Mesh_Labeler3p4_Setup.exe?dl=0>.
+1.  Download installer from <https://www.dropbox.com/scl/fi/iwygsifl5salwqkzvk3qk/Mesh_Labeler4p3p1_Setup.exe?rlkey=tluv0n383p1m7dlllfrioqxjm&st=b1vjk4ps&dl=0> (click the download button on the top right). The previous v3.4 could be avaialbe from <https://www.dropbox.com/s/n9d4c9x5p7szopn/Mesh_Labeler3p4_Setup.exe?dl=0>.
 
 2.  Execute the downloaded installer to install the program. You can find the shortcut of **Mesh Labeler** in Windows Start menu and Desktop (if it is installed for all user, you might need to search "Mesh Labeler" in the search bar).
 	
